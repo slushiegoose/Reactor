@@ -1,20 +1,22 @@
 <Project>
     <PropertyGroup Condition="'$(GamePlatform)' == 'Steam'">
-        <GameVersion>2021.3.5s</GameVersion>
+        <GameVersion>2021.3.31s</GameVersion>
         <DefineConstants>$(DefineConstants);STEAM</DefineConstants>
     </PropertyGroup>
 
     <PropertyGroup Condition="'$(GamePlatform)' == 'Itch'">
-        <GameVersion>2021.3.5i</GameVersion>
+        <GameVersion>2021.3.31.3i</GameVersion>
         <DefineConstants>$(DefineConstants);ITCH</DefineConstants>
     </PropertyGroup>
 
     <PropertyGroup>
-        <Mappings>NuclearPowered/Mappings:0.2.0</Mappings>
+        <Mappings>D:\Slushie\Downloads\2021.5.10s.json</Mappings>
+        <GameVersion>2021.5.10s</GameVersion>
+        <AmongUs>D:\Slushie\Documents\Steam\steamapps\common\Among Us</AmongUs>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="0.2.9" />
+        <PackageReference Include="Reactor.OxygenFilter.MSBuild" Version="0.3.0" />
     </ItemGroup>
 
     <Target Name="Copy" AfterTargets="Reobfuscate">
