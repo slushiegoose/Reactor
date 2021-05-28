@@ -1,4 +1,4 @@
-#if STEAM
+#if NOSTEAM
 using System.IO;
 using HarmonyLib;
 using Steamworks;
