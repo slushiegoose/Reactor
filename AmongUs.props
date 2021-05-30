@@ -10,8 +10,8 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Mappings>DaemonBeast/Mappings:0.5.0</Mappings>
-        <GameVersion>2021.5.10s</GameVersion>
+        <Mappings>HelpfulStranger999/Mappings:0.6.0</Mappings>
+        <GameVersion>2021.5.25.2</GameVersion>
     </PropertyGroup>
 
     <ItemGroup>
