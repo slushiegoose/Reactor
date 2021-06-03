@@ -4,7 +4,7 @@
     <LangVersion>latest</LangVersion>
 
     <VersionPrefix>0.3.1</VersionPrefix>
-    <VersionSuffix>dev</VersionSuffix>
+    <VersionSuffix>dev-tou</VersionSuffix>
     <Description>Core mod and API for Among Us</Description>
     <Authors>NuclearPowered</Authors>
   </PropertyGroup>
