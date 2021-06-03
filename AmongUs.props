@@ -10,9 +10,8 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Mappings>D:\Slushie\Downloads\2021.5.10s.json</Mappings>
-        <GameVersion>2021.5.10s</GameVersion>
-        <AmongUs>D:\Slushie\Documents\Steam\steamapps\common\Among Us</AmongUs>
+        <Mappings>HelpfulStranger999/Mappings:0.6.0</Mappings>
+        <GameVersion>2021.5.25.2</GameVersion>
     </PropertyGroup>
 
     <ItemGroup>

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Linq;
-using BepInEx;
+﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.IL2CPP;
 using HarmonyLib;
 using Reactor.Extensions;
 using Reactor.Patches;
 using Reactor.Unstrip;
+using System;
+using System.Linq;
 using UnhollowerBaseLib.Attributes;
 using UnityEngine;
 
@@ -38,7 +38,7 @@ namespace Reactor
             _gameObject.AddComponent<Coroutines.Component>();
 
             Harmony.PatchAll();
-            ReactorVersionShower.Initialize();
+            SteamPatch.Initialize();
             DefaultBundle.Load();
         }
 
@@ -81,7 +81,7 @@ namespace Reactor
 
                     foreach (var pluginInfo in IL2CPPChainloader.Instance.Plugins.Values)
                     {
-                        var config = ((BasePlugin) pluginInfo.Instance).Config;
+                        var config = ((BasePlugin)pluginInfo.Instance).Config;
                         if (!config.Any())
                         {
                             continue;
